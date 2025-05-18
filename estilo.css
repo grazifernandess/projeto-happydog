@@ -1,0 +1,116 @@
+body{
+    background: #f7b600;
+
+}
+/*layout*/
+#area-cabeçalho{
+    background-color: #f79400;
+    text-align: center;
+
+    
+}
+
+
+#area-menu{
+padding:10px
+}
+
+#area-logo{
+    text-align: top left;
+    
+}
+
+#principal{
+    text-align: left;
+    display: inline-block;
+    margin: 10px;
+}
+/*formataçao do menu*/
+a{
+    text-decoration: none;
+ }
+ a:link,  a:visited {
+    color:#f7b600;
+    
+
+ }
+  a:hover{
+   text-decoration: underline;
+ }
+
+
+ #area-cabeçalho a:link, #area-cabeçalho a:visited {
+    color:#FFF;
+    padding: 8px 12px;
+
+ }
+ #area-cabeçalho a:hover{
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
+
+   
+ }
+ #servicoshappy{
+    font-size: 20px;
+    position: relative;
+    display: flex;
+
+    word-spacing: 40px;
+
+ }
+ 
+ 
+
+ .imagemlog{
+    margin-top: 10px;
+    text-align: left;
+   
+ }
+ h1{
+    font-size: 80px;
+    color: black;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+    display: inline-block;
+ }
+ span{
+    font-size: 45px;
+  
+   
+    display: flex;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 3;
+ }
+
+.container{
+
+
+    display: flex;
+   align-items: top;
+   position: relative;
+   
+   
+}
+a1{ 
+    font-size: 35px;
+  
+    padding: 30px;
+   
+    width: 45px;
+    -webkit-text-stroke-color: black;
+    word-break: keep-all;
+}
+
+p{
+    font-size: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.botão{
+   width: 500px;
+   height: 100px;
+   color: black;
+}
